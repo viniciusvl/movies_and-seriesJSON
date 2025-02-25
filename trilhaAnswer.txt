@@ -1,0 +1,122 @@
+Extraia todos os nomes de filmes disponíveis no JSON.
+
+The Shawshank Redemption
+Breaking Bad
+
+============================================================
+Obtenha os títulos de todas as séries presentes no JSON.
+
+Breaking Bad
+
+============================================================
+Identifique qual filme ou série possui o maior valor de rating.
+
+Breaking Bad 9.5
+
+============================================================
+Extraia e combine todos os gêneros (genres) sem duplicações.
+
+Crime
+Thriller
+Drama
+
+============================================================
+Conte quantos filmes e quantas séries existem no JSON.
+
+The Shawshank Redemption, 1994
+Breaking Bad, 2008
+Bull Durham, 1988
+Driving Miss Daisy, 1989
+Malcolm in the Middle, 2000
+Big Love, 2006
+Series: 3
+Filmes: 3
+
+============================================================
+Extraia o nome das plataformas (Netflix, Amazon Prime, HBO Max, etc.).
+
+Netflix
+Amazon Prime
+
+============================================================
+Liste apenas aqueles com a resolução 4K no Netflix.
+
+The Shawshank Redemption
+Breaking Bad
+
+============================================================
+Para um filme como "The Shawshank Redemption", liste as plataformas disponíveis e os URLs correspondentes.
+
+Netflix: https://www.netflix.com/title/70005379
+
+============================================================
+Extraia o nome de todos os atores e seus respectivos personagens.
+
+Tim Robbins, Andy Dufresne
+Morgan Freeman, Ellis Boyd 'Red' Redding
+Bryan Cranston, Walter White
+Aaron Paul, Jesse Pinkman
+
+============================================================
+Encontre o ator que recebeu o maior valor em salary.
+
+Morgan Freeman, 5000000
+
+============================================================
+Extraia todos os locais em filmingLocations presentes no JSON.
+
+The Shawshank Redemption: Mansfield, Ohio, Ashland, Ohio
+
+============================================================
+Relacione cada filme com o(s) diretor(es).
+
+The Shawshank Redemption: Frank Darabont
+
+============================================================
+Encontre o filme com o maior valor em revenue dentro de boxOffice.
+
+The Shawshank Redemption: 28341469
+
+============================================================
+Some os valores de profit e calcule a média para todos os filmes.
+
+Média de lucro dos filmes: 3341469.0
+
+============================================================
+Liste os valores de ticketSales.domestic e ticketSales.international para cada filme.
+
+The Shawshank Redemption: international: 13341469, domestic: 15000000
+
+============================================================
+Extraia o nome dos prêmios, o ano e as categorias associadas.
+
+Academy Awards, 1995, Best Picture
+Primetime Emmy Awards, 2013, Outstanding Drama Series
+
+============================================================
+Liste todos os filmes e séries onde won é true.
+
+Breaking Bad
+
+============================================================
+Encontre os filmes indicados para a categoria de "Best Picture" e organize-os por ano.
+
+The Shawshank Redemption: 1994
+
+============================================================
+Encontre o comentário com o maior valor em helpfulVotes.
+
+User: SkylerNotGuilty
+Comment: The best TV show ever made!
+
+============================================================
+Calcule a média das notas (rating) de todos os filmes.
+
+Média: 9.3
+
+============================================================
+Liste apenas as avaliações onde a data (date) é anterior a 2022.
+
+SkylerNotGuilty: The best TV show ever made!
+
+============================================================
