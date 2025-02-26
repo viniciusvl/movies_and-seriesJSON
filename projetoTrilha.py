@@ -12,8 +12,8 @@ class Trilha:
 
     def questao_1(self):
         self.file.write('Extraia todos os nomes de filmes disponíveis no JSON.\n\n')
-    
-        lista = list(chain.from_iterable(data['data'].values())) 
+
+        lista = list(chain.from_iterable(data.get('data', {}).values())) 
         #data['data] é uma lista que contem duas listas, itertools.chain.from_iterable() serve para juntá-las
         #chain.from_interable junta os dois dicionarios em uma única lista que contém dicionarios
         for c in lista:
@@ -340,7 +340,7 @@ caminhoJson = r'C:\Users\Vinícius\Desktop\Projeto Trilha\movies_and_series.json
 with open(caminhoJson, 'r') as arq:
     data = json.load(arq)
 
-    with open(caminhoResposta, 'a', encoding='utf-8') as file:
+    with open(caminhoResposta, 'w', encoding='utf-8') as file:
         trilha = Trilha(file, data)
 
         trilha.questao_1()

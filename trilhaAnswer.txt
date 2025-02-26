@@ -16,9 +16,9 @@ Breaking Bad 9.5
 ============================================================
 Extraia e combine todos os gêneros (genres) sem duplicações.
 
-Crime
 Thriller
 Drama
+Crime
 
 ============================================================
 Conte quantos filmes e quantas séries existem no JSON.
