@@ -334,8 +334,8 @@ class Trilha:
 
 
 
-caminhoResposta = r'C:\Users\Vinícius\Desktop\Projeto Trilha\trilhaAnswer.txt'
-caminhoJson = r'C:\Users\Vinícius\Desktop\Projeto Trilha\movies_and_series.json'
+caminhoResposta = 'trilhaAnswer.txt'
+caminhoJson = 'movies_and_series.json'
 
 with open(caminhoJson, 'r') as arq:
     data = json.load(arq)
